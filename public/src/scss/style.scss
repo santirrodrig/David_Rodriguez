@@ -1,0 +1,54 @@
+/*FIRST VARIABLE*/
+$font-stack: Quando;
+$font-size: 15px;
+$primary-color: #787878;
+
+body {
+    font-family: $font-stack;
+    font-size: $font-size;
+    color: $primary-color;
+}
+
+/*SECOND VARIABLE*/
+$img-width: 100%;
+$img-height: auto;
+
+img {
+    max-width: $img-width;
+    height: $img-height;
+}
+
+/*THIRD VARIABLE*/
+$p-margin-style:25px;
+$p-line-style: 1.6em;
+
+p {
+    margin-bottom: $p-margin-style;
+    line-height: $p-line-style;
+}
+
+/*FOURTH VARIABLE*/
+$a-font-weight: 400;
+$a-text-decoration: none;
+$a-color: #111111;
+$a-transition: .20s;
+
+a {
+    font-weight: $a-font-weight;
+    text-decoration: $a-text-decoration;
+    color: $a-color;
+    transition: $a-transition;
+}
+
+/*FIFTH VARIABLE*/
+$a-margin-style: 50px;
+$display-flex: flex;
+$flex-wrap: wrap;
+
+article {
+    margin-bottom: $a-margin-style;
+    display: $display-flex;
+    flex-wrap: $flex-wrap;
+}
+
+/*FIRST NESTING*/
